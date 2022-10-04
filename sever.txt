@@ -1,0 +1,12 @@
+
+
+const expres= require('express')
+const app= express()
+const port = 8080
+
+app.get('/',(req,res)=> {
+    res.send('C:\Users\user\Java script\HTML2\1.html')//connect to HTML 1//
+})
+app.get('/',(req,res)=> {
+    res.send('C:\Users\user\Desktop\HTML hein\2.html')//connect to HTML 2//
+})
